@@ -2,11 +2,13 @@
     background:black;
     color:#ffff;
     padding: 20px 10px;
+    
 }
 .footer-container{
     max-width: 1200px;
     margin:20px;
     gap:100px;
+   
 }
 .footer-texto{
     text-align: center;
@@ -15,5 +17,16 @@
 .footer-contato{
     display: flex;
     gap:10px;
-    font-size:24px;
+    font-size:30px;
+    justify-content: center;
  }
+
+.footer-contato a {
+    color: inherit; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+.footer-contato a:hover {
+    color:#696969;
+}
+
