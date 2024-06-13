@@ -25,6 +25,12 @@ line-height: 40px;
 padding: 10px;
 text-decoration: none;
 color:#ffff;
+transition:color 0.3s ease;
+}
+
+.header-menu a:hover {
+      background: #d3d3d3;
+      border-radius: 4px;
 }
 @media(max-width:800px){
 .header{
